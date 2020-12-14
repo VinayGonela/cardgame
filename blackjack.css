@@ -1,0 +1,227 @@
+
+body {
+ 
+    background-image: url('https://i.ytimg.com/vi/kBeQDKm7TJo/maxresdefault.jpg');
+      background-repeat: no-repeat;
+      background-size: 100%;
+
+  
+}
+
+#table {
+  position: relative;
+ 
+}
+
+#dealer{
+  box-sizing: border-box;
+  padding-left:156px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  height: 214px;
+  position: relative;
+  width:100%;
+}
+
+#deck{
+  top:55px;
+  left:15px;
+  z-index: 10;
+  position: absolute;
+  width: 120px;
+  height: 180px;
+  border-radius: 5px;
+  padding:2px;
+  background-color: #F6F7EB;
+  display: block;
+  }
+
+.card {
+  font-family: 'Arbutus Slab', serif;
+  position: relative;
+  width: 120px;
+  height: 180px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 28px;
+  padding:2px;
+  background-color: #F6F7EB;
+  display: flex;
+  margin:15px;
+}
+
+.back {
+  
+  background-image: url('https://www.freeimageslive.com/galleries/sports/sportsgames/pics/deck_of_cards.jpg');
+
+  
+  background-size: 15px 30px;
+  width:96%;
+  height: 98%;
+  margin: 1% auto;
+  border-radius: 5px;
+}
+
+.diamonds, .hearts {
+  color:#E94F37;
+}
+
+.spades, .clubs {
+  color:#393E41;
+}
+
+.rank {
+  position: absolute;
+  width:30px;
+  height: 28px;
+}
+
+.top {
+  top: 2px;
+  left: 2px;
+}
+
+.bottom {
+  bottom:0;
+  right: 2px;
+  text-align: right;
+}
+
+.suit {
+  margin:auto;
+  font-size: 60px;
+}
+
+.border-line {
+  border:3px dashed #F6F7EB;
+  opacity: 0.4;
+  margin: 35px 0;
+}
+
+.score {
+  position: relative;
+  text-align: center;
+  font-family: Gill Sans;
+  color: #F6F7EB;
+  opacity: 0.7;
+  font-size: 35px;
+  z-index:10;
+}
+
+
+/* footer */
+#panel {
+  text-align: center;
+  position: absolute;
+  
+  width: 100%;
+  
+  display : table-row;
+    vertical-align : bottom;
+    height : 100px;
+
+
+}
+
+#status {
+    padding-top: 40px;
+    font-family: 'Quicksand',sans-serif;
+    color: whitesmoke;
+    position: relative;
+    opacity: 0.7;
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 40;
+}
+
+
+button:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+ 
+}
+@keyframes example{
+  0%{background-color: yellow;}
+  25%{background-color: red;}
+  50%{background-color: blue;}
+  100%{background-color: white;}
+  0%{font-family: Arial, Helvetica, sans-serif;}
+  25%{font-family: cursive;}
+  50%{font-family: Impact;}
+  100%{font-family: fantasy;}
+}
+.blue {
+  padding:10px;
+  color:black;
+  background-color:blue;
+  animation:example 10s;
+}
+
+.blue:hover {
+  background-color: #69410b;
+  transform: translateY(-1px);
+}
+
+.green {
+  color: black;
+  padding:10px;
+  background-color:green;
+  animation:example 10s;
+  
+}
+
+.green:hover {
+  background-color: #6a48e6;
+  transform: translateY(-1px);
+}
+
+.red {
+  padding:10px;
+  color: black;
+  background-color: red;
+  animation:example 10s;
+}
+
+.red:hover {
+  background-color: #a71988;
+  transform: translateY(-1px);
+}
+
+.Black {
+  padding:10px;
+  color:white;
+  background-color: #050505;
+  animation:example 10s;
+  
+}
+.Black:hover {
+    background-color: #222222;
+    transform: translateY(-1px);
+  }
+
+.yellow {
+  padding: 10px;
+  color:black;
+  background-color:yellow;
+  animation:example 10s;
+}
+
+.yellow:hover {
+    background-color: #9ce62a;
+    transform: translateY(-1px);
+  }
+
+button:disabled {
+  background-color: rgb(158, 144, 144);
+
+}
+
+button:disabled:hover {
+  background-color: rgb(187, 167, 167);
+}
+
